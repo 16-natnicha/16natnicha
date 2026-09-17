@@ -6,6 +6,9 @@
 
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
-s1 = int(input())
-s2 = int(input())
-s3 = int(input())
+s1 = int(input("คะเเนนวิชาที่1"))
+s2 = int(input("คะเเนนวิชาที่2"))
+s3 = int(input("คะเเนนวิชาที่3"))
+totel=(s1+s2+s3 )
+score=(totel /3)
+print (score)
